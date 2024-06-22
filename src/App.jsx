@@ -26,7 +26,7 @@ function App() {
       redirect: "follow"
     };
 
-    fetch("https://DM03.pythonanywhere.com/api/metadata/", requestOptions)
+    fetch("https://Direction28.pythonanywhere.com/api/metadata/", requestOptions)
       .then((response) => response.json())
       .then((result) => {
         setData(result)
